@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .div{
+                text-indent: 500px;
+            }
+        </style>
+         <script type="text/javascript">
+
+            function unselect() {
+                document.querySelectorAll('[name=suma]').forEach((x) => x.checked = false);
+                document.querySelectorAll('[name=resta]').forEach((x) => x.checked = false);
+                document.querySelectorAll('[name=multiplicacion]').forEach((x) => x.checked = false);
+                document.querySelectorAll('[name=division]').forEach((x) => x.checked = false);
+                document.querySelectorAll('[name=mayor]').forEach((x) => x.checked = false);
+                document.querySelectorAll('[name=potencia]').forEach((x) => x.checked = false);
+                document.querySelectorAll('[name=binario]').forEach((x) => x.checked = false);
+            }
+        </script>
+    </head>
+
+</html>
